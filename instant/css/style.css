@@ -1,0 +1,169 @@
+/* --------- Stylesheets incorporation --------- */
+@import url("content.css");
+@import url("extraclass.css");
+@import url("forms.css");
+@import url("templates.css");
+@import url("blocks.css");
+
+/* --------- Reset css --------- */
+* {
+  margin : 0;
+  padding : 0;
+}
+
+/* --------- Layout --------- */
+html, body {	
+	margin : 0;	
+	background : #F4F4F4 url("../img/img01.jpg") repeat-x left top;
+	padding : 0;
+	color : #000000;
+	font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size : .9em;
+}
+#xo-canvas {}
+#xo-canvas-content {
+	width : 1000px;
+	margin : 0 auto;
+	padding : 10px 5px 0 5px;
+}
+#xo-page {padding-top : 5px;}
+
+/* --------- Header --------- */
+#xo-header {
+	width : 1000px;
+	height : 108px;
+	margin : 0 auto;
+	padding : 0 10px; 
+}
+/* --- Logo --- */
+#xo-header h1, #xo-header p {
+	float : left;
+	margin : 0;
+	color : #FFFFFF;
+}
+#xo-header h1 {
+	padding : 30px 0 0 0;
+	text-transform : lowercase;
+	font-weight : normal;
+	font-size : 3em;
+}
+#xo-header p {
+	padding : 52px 0 0 3px;
+	color: #FFFFFF;
+	text-transform : uppercase;
+	font-size : 10px;	
+}
+#xo-header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	border : none;
+}
+/* --- Banner --- */
+#xo-header .banner {
+  position : relative;
+  float : right;
+  top : 25px;
+  right : 70px;  
+}
+
+/* --------- Navigation menu --------- */
+ul#xo-globalnav {   
+	width : 1000px;
+	height : 30px;
+	margin : 0 auto;
+	padding-top : 5px;
+}
+ul#xo-globalnav li {
+  display : inline;
+  list-style : none;
+}
+ul#xo-globalnav a {
+	display : block;
+	float : left;
+	margin : 0 3px 0 0;
+	background : url("../img/img02.gif") no-repeat left 50%;
+	padding : 10px 15px 10px 15px;
+	color : #262626;
+	text-decoration : none;
+	text-transform : uppercase;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	border : none;
+}
+ul#xo-globalnav a:hover {
+	margin : 0 3px 0 0;
+	padding : 10px 15px 10px 15px;
+	color : #000000;
+}
+ul#xo-globalnav a.xo-current  {
+  background: none;
+	margin: 0 3px 0 0;
+	padding: 10px 15px 10px 0px;
+	color: #000000;
+}
+
+/* --------- Breadcrumb --------- */
+#xo-breadcrumb {
+  margin : 0 5px 0 5px;
+  padding : 2px 3px 3px 5px;
+  font-size : .8em;
+}
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;  
+}
+
+/* --------- Footer --------- */
+#xo-footer {
+	height : 100px;
+	background : #565656 url("../img/img03.jpg") repeat-x left top;
+}
+#xo-footer p {
+	margin : 0;
+	padding : 40px 0 0 0;
+	color : #FFFFFF;
+	text-align : center;
+	text-transform : uppercase;
+	font-size : 11px;
+}
+#xo-footer a {color: #FFFFFF;}
+#xo-logger-output{font-size : .9em;}
+
+/* --------- Block main menu --------- */
+#mainmenu {font-size : .9em;}
+#mainmenu a {
+  display : block;
+  margin : 0; 
+  padding : 4px;
+}
+#mainmenu a:hover {
+  background-color : #fff;
+	text-decoration : none;
+	border-bottom : 1px dashed #CCCCCC;
+}
+#mainmenu a.menuTop {padding-left : 3px;}
+#mainmenu a.menuMain {padding-left : 3px;}
+#mainmenu a.menuSub {  
+  background-color : #fff;
+  padding-left : 12px;
+  font-size : .9em;
+  font-style : italic;
+}
+#mainmenu a.menuSub:hover {background-color : #f4f4f4;}
+
+/* --------- Block user menu --------- */
+#usermenu {font-size : .9em;}
+#usermenu a {
+  display : block;
+  margin : 0; 
+  padding : 4px;
+}
+#usermenu a:hover {
+  background-color : #fff;
+	text-decoration : none;
+	border-bottom : 1px dashed #CCCCCC;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color : #fcc;}

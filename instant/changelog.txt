@@ -1,0 +1,6 @@
+Changelog Instant Theme 1.0
+Oct 26, 2008 
+=============
+1 Instant template (by freecsstemplates.org) ported to XOOPS (by xoopsland.com)
+
+
